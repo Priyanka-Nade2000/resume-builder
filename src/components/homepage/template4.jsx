@@ -41,7 +41,7 @@ function Template4(prop) {
     <Paper id="Temp4" elevation={3}  >
     
       
-      <Grid container spacing={2} backgroundColor="#800080" color="white" borderRadius={2} >
+      <Grid container spacing={2} backgroundColor="#57975b" color="white" borderRadius={2} >
       <Grid  xs={6} >
 <Typography  ml={1} variant='h3'  >{`${prop.input.First_Name}  ${prop.input.Last_Name}`}</Typography>
           
