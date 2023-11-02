@@ -1,70 +1,31 @@
-# Getting Started with Create React App
+Resume-Builder (AlmaBetter__Capstone__Project) -
+├── public/ │ ├── favicon.ico │ ├── index.html │ ├── logo192.png │ ├── logo512.png │ ├── manifest.json │ └── robots.txt │ ├── src/ │ ├── App.js │ ├── index.css │ ├── index.js │ │ │ └── Components/ │ ├── about_us_page/ │ │ └── aboutus.jsx │ │ │ ├── detail_filling_page/ │ │ ├── navtabs/ │ │ │ └── navtabs.jsx │ │ ├── detail.jsx │ │ ├── education.jsx │ │ ├── keyskills.jsx │ │ ├── personal_info.jsx │ │ └── workexperience.jsx │ │ │ ├── homepage/ │ │ ├── my_templates.jsx │ │ ├── mytamplate.css │ │ ├── template1.jsx │ │ ├── template2.jsx │ │ ├── template3.jsx │ │ └── template4.jsx │ │ │ ├── preview_page/ │ │ ├── preview.jsx │ │ └── preview.css │ │ │ ├── images/ │ │ ├── aboutCv.jpg │ │ ├── T1.png │ │ ├── T2.png │ │ ├── T3.png │ │ └── T4.png │ │ │ ├── navbar/ │ │ └── navbar.jsx │ │ │ ├── PersonalInfo/ │ │ ├── PersonalInfoComponent.css │ │ └── PersonalInfoComponent.js │ │ │ └── Preview/ │ ├── PreviewComponent.css │ └── PreviewComponent.js │ ├── constant/ │ └── actiontype.js │ ├── state/ │ ├── action/ │ ├── action.js │ ├── index.js │ └── Sel_Template.js │ ├── reducer/ │ ├── index.js │ ├── Sel_Template.js │ └── updateinforeducer.js │ └── store/ └── store.js
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+Introduction
+Resume@builder is a web application where anyone can create resume with ease and choose from different available templates.
+It has two tabs : 1) Resume Templates (Home Page) , 2) About us
+Before downloading we have a preview option to view your resume.
+You can download resumes to the local hard drive.
 
-In the project directory, you can run:
+Used in this project:
+React-Router-Dom
+Material UI
+React-Redux
+Store
+React-Avatar-edit
+Vanilla CSS
+JSX
+React-Hook-Forms
+Jspdf converter
+Redux
+Images
 
-### `npm start`
+Pages
+Home (Resume Templates)
+-Choose one from the available templates ;
+-Navigated to details filling page
+About us
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Live Link -
+ https://resume-builderproject.netlify.app/
